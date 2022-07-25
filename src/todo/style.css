@@ -1,0 +1,76 @@
+body{
+    background-color: #a2d2ff;
+}
+
+h2{
+    color: #fff;
+    font-size: 3rem;
+}
+
+
+.form-control{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control>*{
+    margin-bottom: 2rem;
+}
+.form-control input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: larger;
+}
+
+.form-control input::placeholder{
+    font-weight: bold;
+    font-size: 1rem;
+    opacity: .8;
+}
+.form-control input:focus{
+   outline: 3px dotted transparent;
+}
+
+.form-control button{
+    margin-left: 1%;
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid #023047;
+    border-radius: 10px;
+    background-color: #a2d2ff;
+    font-weight:bolder;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+
+.todo-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.todo-container div{
+    margin-bottom: 5px;
+    background-color: #fff;
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.todo-container button{
+    background-color: #fff;
+    border: none;
+    font-size: 1.5rem;
+}
